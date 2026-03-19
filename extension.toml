@@ -1,0 +1,11 @@
+id = "concerto"
+name = "Concerto"
+version = "0.1.0"
+schema_version = 1
+authors = ["Jamie Shorten <jamie@jamieshorten.com>"]
+description = "Concerto Modelling Language support for Zed — syntax highlighting, code outline, indentation, and text objects for .cto files"
+repository = "https://github.com/accordproject/zed-concerto"
+
+[grammars.concerto]
+repository = "https://github.com/accordproject/concerto-tree-sitter"
+rev = "2a490f623254ada31bff8318bdd04f9c10715f92"
